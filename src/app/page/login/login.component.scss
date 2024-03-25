@@ -54,7 +54,12 @@ body {
       height: 23.4375rem;
     }
   }
-
+  .fixed-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Assurez-vous que l'image est au-dessus de tout autre contenu */
+}
   .content {
     display: flex;
     justify-content: center;
